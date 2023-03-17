@@ -2,6 +2,7 @@ DVDRENTAL SORGU SENARYOLARI ÇÖZÜMLERİ
 film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
 film tablosunda bulunan tüm sütunlardaki verileri film uzunluğu (length) 60 dan büyük VE 75 ten küçük olma koşullarıyla sıralayınız.
 ÇÖZÜM: SELECT * FROM film WHERE length > 60 AND length < 75;
+
 ![Capture1](https://user-images.githubusercontent.com/128131203/225854613-f7b1cff6-ff58-468a-a635-a71f549385b8.PNG)
 
 film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99 VE replacement_cost 12.99 VEYA 28.99 olma koşullarıyla sıralayınız.
